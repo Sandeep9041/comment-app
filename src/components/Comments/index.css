@@ -1,0 +1,169 @@
+/* Write your CSS here */
+.bg {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card {
+  width: 80%;
+  padding: 25px;
+}
+@media screen and (max-width: 767px) {
+  .card {
+    width: 95%;
+    padding: 15px;
+  }
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 55px;
+  font-weight: bold;
+  color: #1e293b;
+}
+
+@media screen and (max-width: 767px) {
+  .heading {
+    font-size: 47px;
+  }
+}
+.para {
+  color: #475569;
+  font-weight: 500;
+  font-size: 21px;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 767px) {
+  .para {
+    font-size: 15px;
+  }
+}
+.card-containers {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 767px) {
+  .card-containers {
+    flex-direction: column;
+  }
+}
+.get-data {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 767px) {
+  .get-data {
+    order: 1;
+  }
+}
+.input {
+  width: 355px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  font-size: 21px;
+  color: #1e293b;
+  border: 1px solid #1e293b;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 19px;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 767px) {
+  .input {
+    width: 275px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 11px;
+    font-size: 13px;
+  }
+}
+.text-area {
+  width: 355px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  font-size: 21px;
+  border: 1px solid #1e293b;
+  border-radius: 5px;
+  color: #1e293b;
+  outline: none;
+  margin-bottom: 19px;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 767px) {
+  .text-area {
+    width: 275px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 11px;
+    font-size: 13px;
+  }
+}
+.button {
+  width: 155px;
+  background-color: #0284c7;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 19px;
+  font-weight: 300;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border: 0px;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 767px) {
+  .button {
+    text-align: center;
+    width: 115px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 11px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .image {
+    width: 295px;
+  }
+}
+.break {
+  width: 80%;
+  border-color: #cbd2d9;
+}
+
+.comments-arrea {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.box {
+  width: 41px;
+  height: 41px;
+  background-color: #0284c7;
+  padding: 7px;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 19px;
+  margin-right: 5px;
+}
+@media screen and (max-width: 767px) {
+  .box {
+    width: 31px;
+    height: 31px;
+    font-size: 13px;
+  }
+}
+.box-para {
+  display: flex;
+  align-items: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.comment {
+  padding: 0px;
+}
